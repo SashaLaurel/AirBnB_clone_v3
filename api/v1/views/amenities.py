@@ -77,4 +77,4 @@ def amenity_methods(amenity_id=None):
 
     # UNSUPPORTED REQUESTS
     else:
-        abort(50)
+        abort(501)
